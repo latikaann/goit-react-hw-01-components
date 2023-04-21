@@ -1,0 +1,72 @@
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    
+    border-radius: 2%;
+    background-color: white;
+    box-shadow:5px 5px 10px #808080;
+    
+  }
+  .description {
+    margin-top: 30px;
+    text-align: center;
+   
+  }
+  .avatar {
+    
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+    outline: 2px solid #808080;
+  
+  }
+  .name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .tag {
+    margin-bottom: 10px;
+    color: #808080;
+  }
+  .location {
+    color: #808080;
+  }
+  .stats {
+    display: flex;
+    width: 100%;
+    background-color: #edeff3;
+  
+  }
+  
+  .stats li {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+      align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid gainsboro;
+  }
+   
+  .label {
+    font-size: 20px;
+    color: #4d4c4c;
+  }
+  .quantity {
+    color: rgba(8, 0, 0, 0.849);
+    font-weight: 700;
+    font-size: 20px;
+  }
