@@ -1,0 +1,40 @@
+.transactionHistory {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    box-shadow:5px 5px 10px #808080;
+}
+.tableHead {
+    
+    height: 50px;
+
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: white;
+    background-color: rgb(40, 198, 219);
+
+    
+}
+.tableHead th {
+    width: 300px;
+    padding: 30px;
+    outline: 1px solid #808080;
+}
+.tableBody {
+    font-weight: 400;
+    font-size: 20px;
+    outline: 1px solid #808080;
+}
+
+
+td {
+    text-align: center;
+    padding: 15px;
+    outline: 1px solid #80808098;
+}
+
+tr:nth-child(2n+2) {
+    background-color: #80808015;
+}

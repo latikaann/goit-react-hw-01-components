@@ -6,13 +6,15 @@
 
 .item {
     padding: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
     width: 350px;
     height: 100px;
     margin: auto;
     margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
 
     border-radius: 2%;
     background-color: white;
