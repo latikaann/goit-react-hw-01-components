@@ -1,13 +1,16 @@
 .profile {
+    
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
     overflow: hidden;
-    width: 350px;
-    height: 500px;
-    margin: auto;
-    margin-bottom: 50px;
 
     border-radius: 2%;
     background-color: white;
@@ -16,6 +19,7 @@
   }
   .description {
     margin-top: 30px;
+
     text-align: center;
    
   }
@@ -23,6 +27,7 @@
     
     width: 200px;
     margin: auto;
+
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
@@ -33,6 +38,7 @@
   .name {
     margin-top: 30px;
     margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 25px;
   }
@@ -53,11 +59,13 @@
   .stats li {
     padding: 30px 20px;
     width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-      align-items: center;
+    align-items: center;
     justify-content: center;
+    
     gap: 5px;
     border: 1px solid gainsboro;
   }
