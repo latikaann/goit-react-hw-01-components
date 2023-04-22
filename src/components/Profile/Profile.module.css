@@ -7,7 +7,8 @@
     width: 350px;
     height: 500px;
     margin: auto;
-    
+    margin-bottom: 50px;
+
     border-radius: 2%;
     background-color: white;
     box-shadow:5px 5px 10px #808080;
@@ -50,7 +51,7 @@
   }
   
   .stats li {
-    padding: 20px;
+    padding: 30px 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
