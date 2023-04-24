@@ -5,6 +5,7 @@ import css from './TransactionHistory.module.css';
 export const TransactionHistory = (transactions) => {
 
 const items = transactions.items;
+
 return (
     <table className={css.transactionHistory}>
   <thead className={css.tableHead}>
@@ -30,10 +31,10 @@ return (
 }
 
 TransactionHistory.propTypes = {
-    transactions: PropTypes.arrayOf(PropTypes.exact(
+    items: PropTypes.arrayOf(PropTypes.exact(
         {id: PropTypes.string.isRequired,
         type: PropTypes.string.isRequired,
         amount: PropTypes.string.isRequired,
-        currency: PropTypes.number.isRequired}))
+        currency: PropTypes.string.isRequired}))
   }
 
